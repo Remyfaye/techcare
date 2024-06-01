@@ -33,9 +33,9 @@ const Left = () => {
   }, [userData]);
   return (
     <section className="bg-white rounded-2xl p-3  lg:w-[25%]">
-      <div>
-        <h1 className="font-bold mb-4 text-2xl">Patients</h1>
-        <img src="" alt="" />
+      <div className="flex items-center justify-between  mb-4 ">
+        <h1 className="font-bold text-2xl">Patients</h1>
+        <img src="/search.png" alt="alt" />
       </div>
 
       <div>
